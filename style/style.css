@@ -2,7 +2,6 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
-
 }
 
 .topContainer {
@@ -125,12 +124,7 @@ h3 {
     height: 400px;
 }
 
-.desc {
-    width: 45%;
 
-    display: flex;
-    flex-direction: column;
-}
 
 .desc a {
     text-decoration: none;
@@ -172,31 +166,26 @@ h3 {
     }
 
     .Content {
-        width: 500px;
+        width: 470px;
     }
 }
 
 @media screen and (max-width : 650px){
 
-    .main {
-        width: 50%;
-        margin: auto;
-    }
-
     .blocLeft {
         width: 400px;
-
+        margin-left: 0%;
         align-self: center;
     }
 
     .blocRight {
         width: 400px;
-
+        margin-right: 0%;
         align-self: center;
     }
 
     .Content {
-        width: 400px;
+        width: 350px;
     }
 
     .realisationsImg {
@@ -211,14 +200,22 @@ h3 {
     .titre h2 {
         font-size: 20px;
     }
+
+    hr {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width : 500px){
 
-    .main {
-        width: 50%;
-        margin: auto;
+    .blocLeft {
+        border-radius: 0% 0% 0% 0%;
     }
+
+    .blocRight {
+        border-radius: 0% 0% 0% 0%;
+    }
+
 
     .img img {
         width: 200px;
@@ -226,11 +223,11 @@ h3 {
     }
 
     .titre h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .titre h2 {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .blocLeft {
