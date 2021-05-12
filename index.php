@@ -28,6 +28,11 @@
 
         <hr>
 
+        <div class="nav">
+            <a href="">Présentation</a>
+            <a href="">Réalisations</a>
+        </div>
+
         <div class="botContainer">
 
             <div class="blocLeft" data-aos="flip-left" data-aos-duration="1000">
@@ -136,7 +141,5 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
-
-    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

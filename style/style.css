@@ -52,6 +52,20 @@ hr {
     
 }
 
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+
+
 .botContainer {
     display: flex;
     flex-direction: column;
