@@ -1,0 +1,7 @@
+{
+    "name": "julienrtg/siteperso",
+
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    }
+}
