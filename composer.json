@@ -1,6 +1,12 @@
 {
     "name": "julienrtg/siteperso",
 
+    "autoload": {
+        "psr-4": {
+            "Alto\\" : "vendor/"
+        }
+    },
+
     "require": {
         "altorouter/altorouter": "^2.0"
     }
