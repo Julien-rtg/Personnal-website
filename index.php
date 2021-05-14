@@ -10,9 +10,9 @@ $router = new AltoRouter();
 
 var_dump($_SERVER['REQUEST_URI']);
 
-$router->setBasePath('/SitePerso');
+$router->setBasePath('/SitePerso'); // SitePerso is the new root
 
-$router->map('GET', '/', 'templates/home.php', 'home');
+$router->map('GET', '/', 'templates/home.php', 'home'); // map for home need to match an another route for home, /index.php
 $match = $router->match();
 if ($match) {
     require $match['target'];
@@ -21,6 +21,5 @@ if ($match) {
     require '404.html';
 }
 
-echo 'non';
 
 require 'elements/footer.php';
