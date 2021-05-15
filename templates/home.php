@@ -13,8 +13,8 @@
         <hr>
 
         <div class="nav">
-            <a href="">Présentation</a>
-            <a href="">Réalisations</a>
+            <a href="/presentation">Présentation</a>
+            <a href="/realisations">Réalisations</a>
         </div>
 
         <div class="botContainer">
