@@ -20,4 +20,3 @@ if ($match) {
     header("HTTP/1.0 404 Not Found");
     require '404.html';
 }
-
