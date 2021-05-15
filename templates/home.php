@@ -13,8 +13,8 @@
         <hr>
 
         <div class="nav">
-            <a href="/presentation">Présentation</a>
-            <a href="/realisations">Réalisations</a>
+            <a href="<?= $router->generate('presentation'); ?>">Présentation</a> <!-- $router->generate(''); calling route from index.php -->
+            <a href="<?= $router->generate('realisations'); ?>">Réalisations</a>
         </div>
 
         <div class="botContainer">
