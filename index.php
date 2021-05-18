@@ -8,9 +8,9 @@ $router = new AltoRouter();
 $router->setBasePath('/SitePerso'); // SitePerso is the new root
 
 $router->map('GET', '/', 'templates/home.php', 'home');
-$router->map('GET', '/presentation', 'templates/presentation.php', 'presentation');
-$router->map('GET', '/realisations', 'templates/realisations.php', 'realisations');
-$router->map('GET', '/realisations/MLS', 'templates/realisations/MLS.php', 'realisationsMLS');
+$router->map('GET', '/Presentation', 'templates/presentation.php', 'presentation');
+$router->map('GET', '/Realisations', 'templates/realisations.php', 'realisations');
+$router->map('GET', '/Realisations/MLS', 'templates/realisations/MLS.php', 'realisationsMLS');
 
 $match = $router->match();
 if ($match) {

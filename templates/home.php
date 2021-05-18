@@ -54,7 +54,7 @@
             <h3>Mes réalisations :</h3>
             <div class="realisationsImg">
                 <div class="desc">
-                    <a href="https://www.mylovelysushi.fr"><strong>MyLovelySushi.fr</strong></a> <br>
+                    <a href="https://www.mylovelysushi.fr"><strong>MyLovelySushi.fr</strong></a> <br> <br>
                     <p> <strong>Description :</strong>  Ce site est pour un restaurant de sushi, il a été réalisé en 
                         PHP natif les principales fonctionnalités, sont un menu en ligne 
                         affichants les produits et la création d'un panier. Une page contact qui permet d'envoyer un mail ainsi 

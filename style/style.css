@@ -52,9 +52,10 @@ hr {
     
 }
 
-.nav {
+.nav, .navRealisations {
     display: flex;
     justify-content: center;
+    
 }
 
 .nav a {
@@ -63,7 +64,11 @@ hr {
     font-size: 20px;
     margin-left: 2%;
 }
-
+.navRealisations a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
 
 
 .botContainer {
@@ -134,12 +139,14 @@ h3 {
 }
 
 .realisationsImg img {
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 430px;
 }
 
 
-
+.desc {
+    width: 250px;
+}
 .desc a {
     text-decoration: none;
     color: inherit;
@@ -207,8 +214,8 @@ h3 {
     }
 
     .realisationsImg img{
-        width: 150px;
-        height: 250px;
+        width: 190px;
+        height: 300px;
     }
 
     .titre h2 {
@@ -230,6 +237,9 @@ h3 {
         border-radius: 0% 0% 0% 0%;
     }
 
+    .desc {
+        width: 200px;
+    }
 
     .img img {
         width: 200px;

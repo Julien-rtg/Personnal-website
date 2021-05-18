@@ -8,7 +8,7 @@
     <a href="<?= $router->generate('presentation'); ?>">Présentation</a>
     <a href="<?= $router->generate('realisations'); ?>">Réalisations</a>
 </div>
-
+<hr>
 <div class="navRealisations">
     <a href="<?= $router->generate('realisationsMLS'); ?>">MyLovelySushi</a>
 </div>
