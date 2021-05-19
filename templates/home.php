@@ -23,28 +23,18 @@
             <h3>Mes compétences :</h3>
             <div class="competencesFront">
                 <h4>Front-end :</h4>
-                <div class="competencesFrontImg">
+                <div class="competencesImg">
                     <img src="img/file_type_html_icon_130541.png" alt="HTML" title="HTML">
                     <img src="img/file_type_css_icon_130661.png" alt="CSS" title="CSS">
                     <img src="img/javascript_icon_130900.png" alt="Javascript" title="Javascript">
                 </div>
-                <ul>
-                    <li>Maquetter une application</li>
-                    <li>Développer une interface utilisateur web dynamique</li>
-                    <li>Réaliser une interface utilisateur web statique et adaptable</li>
-                </ul>
             </div>
             <div class="competencesBack">
                 <h4>Back-end :</h4>
-                <div class="competencesBackImg">
+                <div class="competencesImg">
                     <img src="img/file_type_php_icon_130266.png" alt="PHP" title="PHP">
                     <img src="img/sql-document-outlined-interface-symbol_icon-icons.com_57504.png" alt="SQL" title="SQL">
                 </div>
-                <ul>
-                    <li>Créer une base de données</li>
-                    <li>Développer les composants d'accès aux données</li>
-                    <li>Elaborer et mette en oeuvre des composants de gestion de contenu</li>
-                </ul>
             </div>
         </div>
     </div>
@@ -109,9 +99,8 @@
     <div class="blocLeft contact" data-aos="flip-left" data-aos-duration="1000">
         <div class="Content">
             <h3>Contact :</h3>
-            <p>Email : julien.rittl@gmail.com</p>
-            <p>Téléphone : 06 46 88 53 39</p>
             <div class="socials">
+                <a href="mailto:julien.rittl@gmail.com"><img src="img\mail-black-envelope-symbol_icon-icons.com_56519.png" alt=""></a>
                 <a href="https://www.linkedin.com/in/julien-rittling/"><img src="img/linkedin_icon-icons.com_65929 (1).png" alt=""></a>
                 <a href="https://github.com/Julien-rtg"><img src="img/github-logo_icon-icons.com_73546 (1).png" alt=""></a>
             </div>

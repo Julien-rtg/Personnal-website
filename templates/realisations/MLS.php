@@ -1,19 +1,42 @@
 <?php require_once 'templates/realisations.php'; ?>
 
+<div class="btnSite">
+    <a href="https://www.mylovelysushi.fr" class="btn btn-success" target="_blank">Visiter le site</a>
+</div>
+
 <div class="botContainer">
 
     <div class="blocLeft">
         <div class="Content">
             <div class="presProjet">
-                <p>Présentation de l'entreprise et projet</p>
-            </div>
+                <h3>Projet de l'entreprise :</h3>
+                <div class="description">
+                    <p>L’activité principale de My Lovely Sushi est la restauration cambodgienne et japonaise, elle propose diverses gammes de produits.</p>
+                    <p>La société souhaite avoir plus de visibilité et s’étendre sur plusieurs plateformes afin d’attirer
+                        plus de personnes. Elle désire donc développer un site internet où les clients pourront
+                        <strong>consulter les produits.</strong> Les principales fonctionnalités du site internet
+                        seront un menu en ligne affichant les produits ainsi qu'une <strong>page Admin pour gérer les produits.</strong></p>
+                    </div>
+                </div>
+                
         </div>
     </div>
 
     <div class="blocRight">
         <div class="Content">
             <div class="besoin">
-                <p>L'expression du besoin</p>
+                <h3>Compétences couvertes par le projet :</h3>
+                <div class="description">
+                    <ul>
+                        <li>Conception graphique</li>
+                        <li>Intégration HTML-CSS</li>
+                        <li>Création base de données</li>
+                        <li>Développement sous PHP orienté objet, MySQL</li>
+                        <li>Animation avec Javascript (AJAX)</li>
+                        <li>Site responsive</li>
+                    </ul>
+                    
+                </div>
             </div>
         </div>
     </div>
