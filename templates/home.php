@@ -16,6 +16,11 @@
     <a href="<?= $router->generate('realisations'); ?>">Réalisations</a>
     <a href= <?= $var->switch() . "/img/CV_Julien_Rittling.pdf" ?> download="CV_Julien_Rittling">CV :
     <img src= <?= $var->switch() . "/img\downloadupdates_theapplication_thearrow_descarg_2915.png" ?> alt=""></a>
+    <button onclick="darkMode()" id="btnColor">
+        Yeux sensibles 
+        <img id="openEye"  src= <?= $var->switch() . "/img/eye_visible_hide_hidden_show_icon_145988.png" ?> alt="">
+        <img id="closeEye"  src= <?= $var->switch() . "/img/eye_slash_visible_hide_hidden_show_icon_145987.png" ?> alt="">
+    </button>
 </div>
 
 <div class="botContainer">

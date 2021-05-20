@@ -1,7 +1,32 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
 .main {
     display: flex;
-    background-color: rgb(255, 255, 255);
     flex-direction: column;
+}
+
+.dark-mode{
+    background-color: rgb(146, 146, 146);
+
+}
+
+.eventOpenEye{
+    display: initial;
+}
+
+.eventCloseEye{
+    display: none;
+}
+
+#closeEye{
+    display: none;
+}
+
+button {
+    border: none;
+    background-color: inherit;
 }
 
 .topContainer {
@@ -56,13 +81,13 @@ hr {
     
 }
 
-.nav, .navRealisations {
+.nav, .navRealisations, #btnColor{
     display: flex;
     justify-content: center;
     
 }
 
-.nav a {
+.nav a, #btnColor{
     text-decoration: none;
     color: inherit;
     font-size: 20px;
@@ -71,7 +96,7 @@ hr {
     transition: transform .5s;
 }
 
-.nav a:hover, .navRealisations a:hover{
+.nav a:hover, .navRealisations a:hover, #btnColor:hover{
     transform: scale(1.5);
     font-weight: 700;
     color: rgb(248, 99, 99);
