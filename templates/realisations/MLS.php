@@ -53,7 +53,7 @@
                         qui sera présent sur l'intégralité du site.
                     </p>
                 </div>
-                <img src="/SitePerso/img/imgMLS/pageAccueil1.png" alt="">
+                <img src= <?= $var->switch() . "/img/imgMLS/pageAccueil1.png" ?> alt="">
             </div>
         </div>
     </div>
@@ -69,7 +69,7 @@
                         qui affichera une fenetre pour afficher la description.
                     </p>
                 </div>
-                <img src="/SitePerso/img/imgMLS/tousLesProduits1.png" alt="">
+                <img src= <?= $var->switch() . "/img/imgMLS/tousLesProduits1.png" ?> alt="">
             </div>
         </div>
     </div>
@@ -83,7 +83,7 @@
                         une erreur si ce n'est pas le cas.
                     </p>
                 </div>
-                <img src="/SitePerso/img/imgMLS/contact.png" alt="">
+                <img src= <?= $var->switch() . "/img/imgMLS/contact.png" ?> alt="">
             </div>
         </div>
     </div>
@@ -98,7 +98,7 @@
                         <span id="textStyle">Le client ne voulait pas que l'achat en ligne soit possible en premier lieu.</span>
                     </p>
                 </div>
-                <img src="/SitePerso/img/imgMLS/panier.png" alt="">
+                <img src= <?= $var->switch() . "/img/imgMLS/panier.png" ?> alt="">
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@
                         de connexion de la page Admin.
                     </p>
                 </div>
-                <img src="/SitePerso/img/imgMLS/admin1.png" alt="">
+                <img src= <?= $var->switch() . "/img/imgMLS/admin1.png" ?> alt="">
             </div>
         </div>
     </div>
@@ -129,7 +129,7 @@
                         s'affiche sur le site dans la bonne catégorie du site.
                     </p>
                 </div>
-                <img src="/SitePerso/img/imgMLS/admin2.png" alt="">
+                <img src= <?= $var->switch() . "/img/imgMLS/admin2.png" ?> alt="">
             </div>
         </div>
     </div>
@@ -142,7 +142,7 @@
                     <p>Cette page permet de modifier les produits présents en base de données.
                     </p>
                 </div>
-                <img src="/SitePerso/img/imgMLS/admin3.png" alt="">
+                <img src= <?= $var->switch() . "/img/imgMLS/admin3.png" ?> alt="">
             </div>
         </div>
     </div>
@@ -156,7 +156,7 @@
                         de le supprimer.
                     </p>
                 </div>
-                <img src="/SitePerso/img/imgMLS/admin4.png" alt="">
+                <img src= <?= $var->switch() . "/img/imgMLS/admin4.png" ?> alt="">
             </div>
         </div>
     </div>

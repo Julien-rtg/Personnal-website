@@ -3,7 +3,8 @@
 
     "autoload": {
         "psr-4": {
-            "Alto\\" : "vendor/"
+            "Alto\\" : "vendor/",
+            "App\\" : "src/"
         }
     },
 

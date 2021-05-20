@@ -1,11 +1,12 @@
 <?php 
 require 'vendor/autoload.php';
+
+use App\Deploy;
 use Alto\AltoRouter;
 $router = new AltoRouter();
+$var = new Deploy(); // refer to src/deploy.php
 
-
-
-$router->setBasePath('/SitePerso'); // SitePerso is the new root
+$router->setBasePath($var->switch()); // Root
 
 $router->map('GET', '/', 'templates/home.php', 'home');
 $router->map('GET', '/Presentation', 'templates/presentation.php', 'presentation');
