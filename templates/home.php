@@ -11,14 +11,14 @@
 <hr>
 
 <div class="nav">
-    <a href="<?= $router->generate('home'); ?>">Home</a> <!-- $router->generate(''); calling route from index.php -->
+    <a href="<?= $router->generate('home'); ?>">Accueil</a> <!-- $router->generate(''); calling route from index.php -->
     <a href="<?= $router->generate('presentation'); ?>">Présentation</a>
     <a href="<?= $router->generate('realisations'); ?>">Réalisations</a>
 </div>
 
 <div class="botContainer">
 
-    <div class="blocLeft" data-aos="flip-left" data-aos-duration="1000">
+    <div class="blocLeft firstBlocMargin" data-aos="flip-left" data-aos-duration="1000">
         <div class="Content">
             <h3>Mes compétences :</h3>
             <div class="competencesFront">
@@ -96,7 +96,7 @@
         </div>
     </div>
 
-    <div class="blocLeft contact" data-aos="flip-left" data-aos-duration="1000">
+    <div class="blocLeft botPage contact" data-aos="flip-right" data-aos-duration="1000">
         <div class="Content">
             <h3>Contact :</h3>
             <div class="socials">
