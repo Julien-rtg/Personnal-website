@@ -18,8 +18,8 @@
     <img src= <?= $var->switch() . "/img\downloadupdates_theapplication_thearrow_descarg_2915.png" ?> alt=""></a>
     <button onclick="darkMode()" id="btnColor">
         Yeux sensibles 
-        <img id="openEye"  src= <?= $var->switch() . "/img/eye_visible_hide_hidden_show_icon_145988.png" ?> alt="">
-        <img id="closeEye"  src= <?= $var->switch() . "/img/eye_slash_visible_hide_hidden_show_icon_145987.png" ?> alt="">
+        <img id="selectorOpenEye" src= <?= $var->switch() . "/img/eye_visible_hide_hidden_show_icon_145988.png" ?> alt="">
+        <img class="closeEye" id="selectorCloseEye" src= <?= $var->switch() . "/img/eye_slash_visible_hide_hidden_show_icon_145987.png" ?> alt="">
     </button>
 </div>
 
