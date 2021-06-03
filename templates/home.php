@@ -4,11 +4,11 @@
     </div>
     <div class="titre">
         <h1>Julien Rittling</h1>
-        <h2 id="h2">Développeur Web en recherche d'alternance</h2>
+        <h2 id="h2">Développeur Web</h2>
     </div>
 </div>
 
-<hr>
+<hr id="hrNav">
 
 <div class="nav">
     <a href="<?= $router->generate('home'); ?>">Accueil</a> <!-- $router->generate(''); calling route from index.php -->
@@ -16,52 +16,36 @@
     <a href="<?= $router->generate('realisations'); ?>">Réalisations</a>
     <a href= <?= $var->switch() . "/img/CV_Julien_Rittling.pdf" ?> download="CV_Julien_Rittling">CV :
     <img src= <?= $var->switch() . "/img\downloadupdates_theapplication_thearrow_descarg_2915.png" ?> alt=""></a>
-    <button onclick="darkMode()" id="btnColor">
+    <!-- <button onclick="darkMode()" id="btnColor">
         Yeux sensibles 
-        <img id="selectorOpenEye" src= <?= $var->switch() . "/img/eye_visible_hide_hidden_show_icon_145988.png" ?> alt="">
-        <img class="closeEye" id="selectorCloseEye" src= <?= $var->switch() . "/img/eye_slash_visible_hide_hidden_show_icon_145987.png" ?> alt="">
-    </button>
+        <img id="selectorOpenEye" src=  $var->switch() . "/img/eye_visible_hide_hidden_show_icon_145988.png"  alt="">
+        <img class="closeEye" id="selectorCloseEye" src=  $var->switch() . "/img/eye_slash_visible_hide_hidden_show_icon_145987.png"  alt="">
+    </button> -->
 </div>
 
 <div class="botContainer">
 
-    <div class="blocLeft firstBlocMargin" data-aos="flip-left" data-aos-duration="1000">
-        <div class="Content">
-            <h3>Mes compétences :</h3>
+    <div class="blocComp" data-aos="flip-left" data-aos-duration="1000">
+        <div class="competences">
             <div class="competencesFront">
-                <h4>Front-end :</h4>
-                <div class="competencesImg">
+                <div class="competencesImgFront">
                     <img src="img/file_type_html_icon_130541.png" alt="HTML" title="HTML">
                     <img src="img/file_type_css_icon_130661.png" alt="CSS" title="CSS">
                     <img src="img/javascript_icon_130900.png" alt="Javascript" title="Javascript">
+                    <img src="img/jquery_plain_wordmark_logo_icon_146445.png" alt="Jquery" title="Jquery">
                 </div>
             </div>
+            <hr id="hrComp">
             <div class="competencesBack">
-                <h4>Back-end :</h4>
-                <div class="competencesImg">
+                <div class="competencesImgBack">
                     <img src="img/file_type_php_icon_130266.png" alt="PHP" title="PHP">
                     <img src="img/sql-document-outlined-interface-symbol_icon-icons.com_57504.png" alt="SQL" title="SQL">
+                    <img src="img/prog-symfony_icon-icons.com_50769.png" alt="Symfony" title="Symfony">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="blocRight" data-aos="flip-right" data-aos-duration="1000">
-        <div class="Content">
-            <h3>Mes réalisations :</h3>
-            <div class="realisationsImg">
-                <div class="desc">
-                    <a href="https://www.mylovelysushi.fr"><strong>MyLovelySushi.fr</strong></a> <br> <br>
-                    <p> <strong>Description :</strong>  Ce site est pour un restaurant de sushi, il a été réalisé en 
-                        PHP natif les principales fonctionnalités, sont un menu en ligne 
-                        affichants les produits et la création d'un panier. Une page contact qui permet d'envoyer un mail ainsi 
-                        qu'une page avec les coordonnées du restaurant avec une map Google. Une page Admin
-                        qui permet de gérer les produits (créer, modifier, supprimer). </p>
-                </div>
-                <img src="img/MLS.png" alt="MLS" title="MLS">
-            </div>
-        </div>
-    </div>
 
     <div class="blocLeft" data-aos="flip-left" data-aos-duration="1000">
         <div class="Content">

@@ -4,7 +4,7 @@
     </div>
 </div>
 
-<hr>
+<hr id="hrNav">
 
 <div class="nav">
     <a href="<?= $router->generate('home'); ?>">Accueil</a> <!-- $router->generate(''); calling route from index.php -->

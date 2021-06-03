@@ -7,7 +7,7 @@ body {
     flex-direction: column;
 }
 
-.dark-mode{
+/* .dark-mode{
     background-color: rgb(146, 146, 146);
 
 }
@@ -27,7 +27,7 @@ body {
 button {
     border: none;
     background-color: inherit;
-}
+} */
 
 .topContainer {
     display: flex;
@@ -73,7 +73,7 @@ button {
             text-align: center;
         }
 
-hr {
+#hrNav {
     display: flex;
     align-self: center;
 
@@ -120,6 +120,27 @@ hr {
     flex-direction: column;
 }
 
+.firstBlocMargin{
+    margin-top: 5%;
+}
+
+.listRealisations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+
+    margin-right: 5%;
+}
+
+.card img{
+
+    height: 400px;
+}
 .blocLeft {
     display: flex;
     flex-direction: column;
@@ -151,28 +172,34 @@ h3 {
     color: rgb(248, 99, 99);
 }
 
-.competencesFront {
-    display: flex;
-    flex-direction: column;
-
-    margin-top: 4%;
+#hrComp{
+    width: 2px;
+    height: 200px;
+    color: red;
 }
-
-.competencesBack {
-    display: flex;
-    flex-direction: column;
+.blocComp{
+    width: 750px;
+    margin: auto;
+    margin-top: 5%;
 }
-
-.competencesImg {
+.competences {
     display: flex;
     justify-content: center;
-    
-    margin-bottom: 4%;
-    margin-top: 4%;
 }
-
-.competencesImg img {
-    padding-left: 5%;
+.competencesFront, .competencesBack{
+    display: flex;
+    align-items: center;
+    width: 360px;
+}
+.competencesImgFront, .competencesImgBack{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: inherit;
+}
+.competencesImgFront img, .competencesImgBack img {
+    width: 64px;
+    height: 64px;
 }
 
 .blocRight {
@@ -259,20 +286,42 @@ h3 {
 
 @media screen and (max-width : 900px){
 
-    hr {
+    #hrNav {
         width: 500px;
     }
-
+    
     .blocLeft{
         width: 500px;
     }
-
+    
     .blocRight{
         width: 500px;
     }
-
+    
     .Content {
         width: 470px;
+    }
+
+    .blocComp{
+        width: 300px;
+        height: 300px;
+    }
+    #hrComp{
+        height: 280px;
+    }
+    .competencesFront, .competencesBack{
+        width: 100px;
+        height: inherit;
+    }
+    .competencesImgFront, .competencesImgBack {
+        flex-direction: column;
+        align-items: center;
+        height: 280px;
+    }
+
+    .competencesImgFront img, .competencesImgBack img {
+        width: 52px;
+        height: 52px;
     }
 }
 
@@ -300,20 +349,25 @@ h3 {
     }
 
     .realisationsImg img{
-        width: 190px;
-        height: 300px;
+        width: 240px;
+        height: 350px;
     }
 
     .titre h2 {
         font-size: 23px;
     }
 
-    hr {
+    #hrNav {
         width: 400px;
     }
 }
 
 @media screen and (max-width : 500px){
+
+    .blocComp{
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
 
     .botContainer{
         margin-top: 10%;
@@ -329,7 +383,7 @@ h3 {
     }
 
     .desc {
-        width: 200px;
+        width: 250px;
     }
 
     .img img {
@@ -347,7 +401,7 @@ h3 {
 
     .blocLeft {
         border-radius: 3%;
-        width: 210px;
+        width: 300px;
         margin-left: 0%;
         padding: 0%;
         margin-bottom: 5%;
@@ -359,17 +413,17 @@ h3 {
 
     .blocRight {
         border-radius: 3%;
-        width: 210px;
+        width: 300px;
         margin-right: 0%;
         padding: 0%;
         margin-bottom: 5%;
     }
 
     .Content {
-        width: 200px;
+        width: 280px;
     }
 
-    hr {
+    #hrNav {
         width: 220px;
     }
 }
