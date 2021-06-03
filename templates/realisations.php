@@ -16,33 +16,47 @@
 <div class="botContainer">
 
     <div class="listRealisations firstBlocMargin">
-
         <div class="card  botPage">
             <img src="img\imgMLS\pageAccueil1.png" class="card-img-top">
-        <div class="card-body">
-            <p class="card-text">
-                <strong>Description :</strong>  Site pour restaurant de sushi, en PHP natif
-            </p>
-            <p class="card-text">
-                <strong>Fonctionnalités :</strong>
-                <ul>
-                    <span id="textStyle">
-                        <li>Menu en ligne affichants les produits</li>
-                        <li>Création d'un panier</li>
-                        <li>Page Contact</li>
-                        <li>Page Admin (gérer les produits (créer, modifier, supprimer))</li>
-                    </span>
-                </ul>
-            </p>
-        </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <strong>Description :</strong>  Site pour restaurant de sushi, en PHP natif
+                </p>
+                <p class="card-text">
+                    <strong>Fonctionnalités :</strong>
+                    <ul>
+                        <span id="textStyle">
+                            <li>Menu en ligne affichants les produits</li>
+                            <li>Création d'un panier</li>
+                            <li>Page Contact</li>
+                            <li>Page Admin (gérer les produits (créer, modifier, supprimer))</li>
+                        </span>
+                    </ul>
+                </p>
+            </div>
         </div>
 
         <div class="card  botPage">
-            <img src="img\imgMLS\pageAccueil1.png" class="card-img-top">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <img src="img\firstProjectSymfony.png" class="card-img-top">
+            <div class="card-body">
+                <p class="card-text">
+                    <strong>Description :</strong>  Blog réalisé sous Symfony
+                </p>
+                <p class="card-text">
+                    <strong>Fonctionnalités :</strong>
+                    <ul>
+                        <span id="textStyle">
+                            <li>Afficher articles</li>
+                            <li>Création d'article, modification</li>
+                            <li>Espace connexion</li>
+                            <li>Espace commentaire sous articles</li>
+                        </span>
+                    </ul>
+                </p>
+            </div>
         </div>
-        </div>
+        
+        
 
     </div>
 </div>
