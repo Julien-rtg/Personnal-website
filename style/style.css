@@ -137,7 +137,16 @@ button {
     margin-left: 1.5%;
     margin-right: 1.5%;
 }
-
+.linkRealisations{
+    margin-bottom: 0%;
+}
+.blocLinkA{
+    margin-left: 8%;
+}
+.linkA{
+    text-decoration: none;
+    color: grey;
+}
 .card img{
 
     height: 400px;
@@ -393,12 +402,10 @@ h3 {
     }
 
     .titre h1 {
-        font-size: 23px;
+        font-size: 30px;
     }
 
-    .titre h2 {
-        font-size: 17px;
-    }
+
 
     .blocLeft {
         border-radius: 3%;

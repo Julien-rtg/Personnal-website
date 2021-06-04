@@ -16,12 +16,11 @@
 <div class="botContainer">
 
     <div class="listRealisations firstBlocMargin">
+
         <div class="card  botPage">
             <img src="img\imgMLS\pageAccueil1.png" class="card-img-top">
             <div class="card-body">
-                <p class="card-text">
-                    <strong>Description :</strong>  Site pour restaurant de sushi, en PHP natif
-                </p>
+                <p class="card-text"> Site pour restaurant de sushi, en PHP natif </p>
                 <p class="card-text">
                     <strong>Fonctionnalités :</strong>
                     <ul>
@@ -33,15 +32,21 @@
                         </span>
                     </ul>
                 </p>
+                <p class="card-text linkRealisations">Github :</p>
+                <div class="blocLinkA">
+                    <a href="https://github.com/Julien-rtg/MLS" class="card-text linkA" target="_blank">github.com/Julien-rtg/MLS</a>
+                </div>
+                <p class="card-text linkRealisations">Site :</p>
+                <div class="blocLinkA">
+                    <a href="https://mylovelysushi.fr/" class="card-text linkA" target="_blank">mylovelysushi.fr</a>
+                </div>
             </div>
         </div>
 
         <div class="card  botPage">
             <img src="img\firstProjectSymfony.png" class="card-img-top">
             <div class="card-body">
-                <p class="card-text">
-                    <strong>Description :</strong>  Blog réalisé sous Symfony
-                </p>
+                <p class="card-text"> Blog réalisé sous Symfony </p>
                 <p class="card-text">
                     <strong>Fonctionnalités :</strong>
                     <ul>
@@ -53,6 +58,10 @@
                         </span>
                     </ul>
                 </p>
+                <p class="card-text linkRealisations">Github :</p>
+                <div class="blocLinkA">
+                    <a href="https://github.com/Julien-rtg/DemoSymfony" class="card-text linkA" target="_blank">github.com/Julien-rtg/DemoSymfony</a>
+                </div>
             </div>
         </div>
         
