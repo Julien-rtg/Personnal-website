@@ -9,7 +9,6 @@ $var = new Deploy(); // refer to src/deploy.php
 $router->setBasePath($var->switch()); // Root
 
 $router->map('GET', '/', 'templates/home.php', 'home');
-$router->map('GET', '/Presentation', 'templates/presentation.php', 'presentation');
 $router->map('GET', '/Realisations', 'templates/realisations.php', 'realisations');
 $router->map('GET', '/Realisations/MLS', 'templates/realisations/MLS.php', 'realisationsMLS');
 

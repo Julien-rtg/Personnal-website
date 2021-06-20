@@ -1,26 +1,31 @@
-<div class="topContainer">
-    <div class="img">
-        <img src="img/Profil.png" alt="">
+<div class="blocTopContainer">
+    <div class="topContainer">
+        <div class="img">
+            <img src="img/Profil.png" alt="">
+        </div>
+        <div class="titre">
+            <h1>Julien Rittling</h1>
+            <h2 id="h2">Développeur Web</h2>
+        </div>
     </div>
-    <div class="titre">
-        <h1>Julien Rittling</h1>
-        <h2 id="h2">Développeur Web</h2>
-    </div>
+    
 </div>
 
-<hr id="hrNav">
-
-<div class="nav">
-    <a href="<?= $router->generate('home'); ?>">Accueil</a> <!-- $router->generate(''); calling route from index.php -->
-    <a href="<?= $router->generate('presentation'); ?>">Présentation</a>
-    <a href="<?= $router->generate('realisations'); ?>">Réalisations</a>
-    <a href= <?= $var->switch() . "/img/CV_Julien_Rittling.pdf" ?> download="CV_Julien_Rittling">CV :
-    <img src= <?= $var->switch() . "/img\downloadupdates_theapplication_thearrow_descarg_2915.png" ?> alt=""></a>
-    <!-- <button onclick="darkMode()" id="btnColor">
-        Yeux sensibles 
-        <img id="selectorOpenEye" src=  $var->switch() . "/img/eye_visible_hide_hidden_show_icon_145988.png"  alt="">
-        <img class="closeEye" id="selectorCloseEye" src=  $var->switch() . "/img/eye_slash_visible_hide_hidden_show_icon_145987.png"  alt="">
-    </button> -->
+<div class="blocNav">
+    <hr id="hrNav">
+    
+    <div class="nav">
+        <a href="<?= $router->generate('home'); ?>">Accueil</a> <!-- $router->generate(''); calling route from index.php -->
+        <a href="<?= $router->generate('realisations'); ?>">Réalisations</a>
+        <a href= <?= $var->switch() . "/img/CV_Julien_Rittling.pdf" ?> download="CV_Julien_Rittling">CV :
+            <img src= <?= $var->switch() . "/img\downloadupdates_theapplication_thearrow_descarg_2915.png" ?> alt=""></a>
+        </div>
+        <section>
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+        </section>
 </div>
 
 <div class="botContainer">
@@ -68,26 +73,32 @@
 
     <div class="blocRight" data-aos="flip-right" data-aos-duration="1000">
         <div class="Content">
-            <h3>Mes expériences:</h3>
-            <div class="experiences">
-                <p>My lovely Sushi à Mazamet</p>
-                <p>Dans le cadre de ma formation et pour la valider, je devais réaliser un stage de fin
-                    de formation d'une durée de 8 semaines, j'ai du développer leur site en autonomie car il n'avait
-                    pas de développeur dans leur entreprise. La réalisation du site c'est déroulé en plusieurs étapes :
-                </p>
-                <ul>
-                    <li>La réalisation du cahier des charges et leur expression du besoin</li>
-                    <li>L'analyse fonctionnelle</li>
-                    <li>La conception du système d'information</li>
-                    <li>Les choix techniques</li>
-                    <li>Le développement</li>
-                    <li>Déploiement</li>
-                </ul>
+            <div class="about">
+                <h3>A propos de moi :</h3>
+                <div class="description">
+                <p>Je suis actuellement à la <span id="textStyle">recherche</span> d'une entreprise sur <span id="textStyle">Toulouse</span> et alentours pouvant m'accueillir pour une <span id="textStyle">alternance</span>
+                    sur 24 mois avec OpenClassrooms de niveau Bac+3/4 dans le <span id="textStyle">développement Web PHP / Symfony.</span></p>
+                <p>J'ai effectué une première <span id="textStyle">formation de Développeur Web PHP de niveau Bac+2</span>, où j'ai appris les bases du développement Web 
+                dans les langages <span id="textStyle">HTML/CSS/SQL/PHP en orienté objet</span>, sur les outils de versionning tels que <span id="textStyle">Github</span>,
+                  sur les environnement wamp/phpmyadmin.</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="blocLeft botPage contact" data-aos="flip-right" data-aos-duration="1000">
+    <div class="blocLeft" data-aos="flip-left" data-aos-duration="1000">
+        <div class="Content">
+            <div class="futur">
+                <h3>Ambitions :</h3>
+                <div class="description">
+                    <p>J'ambitionne de devenir <span id="textStyle">Développeur Full-Stack</span> avec les technologies Javascript et PHP.</p>
+                    <p>Avant çela il faut que je me perfectionne sur le back-end avec PHP et sur le framework Symfony 5!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blocRight botPage contact" data-aos="flip-right" data-aos-duration="1000">
         <div class="Content">
             <h3>Contact :</h3>
             <div class="socials">
