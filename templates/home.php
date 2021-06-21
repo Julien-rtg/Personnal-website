@@ -11,24 +11,16 @@
     
 </div>
 
-<div class="blocNav">
-    <hr id="hrNav">
-    
-    <div class="nav">
-        <a href="<?= $router->generate('home'); ?>">Accueil</a> <!-- $router->generate(''); calling route from index.php -->
-        <a href="<?= $router->generate('realisations'); ?>">Réalisations</a>
-        <a href= <?= $var->switch() . "/img/CV_Julien_Rittling.pdf" ?> download="CV_Julien_Rittling">CV :
-            <img src= <?= $var->switch() . "/img\downloadupdates_theapplication_thearrow_descarg_2915.png" ?> alt=""></a>
-        </div>
-        <section>
-            <div class="wave wave1"></div>
-            <div class="wave wave2"></div>
-            <div class="wave wave3"></div>
-            <div class="wave wave4"></div>
-        </section>
-</div>
 
-<div class="botContainer">
+<section>
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+    <div class="wave wave4"></div>
+</section>
+
+
+<div class="botContainer text-white">
 
     <div class="blocComp" data-aos="flip-left" data-aos-duration="1000">
         <div class="competences">
@@ -76,29 +68,72 @@
             <div class="about">
                 <h3>A propos de moi :</h3>
                 <div class="description">
-                <p>Je suis actuellement à la <span id="textStyle">recherche</span> d'une entreprise sur <span id="textStyle">Toulouse</span> et alentours pouvant m'accueillir pour une <span id="textStyle">alternance</span>
+                <p>Actuellement à la <span id="textStyle">recherche</span> d'une entreprise sur <span id="textStyle">Toulouse</span> et alentours pouvant m'accueillir pour une <span id="textStyle">alternance</span>
                     sur 24 mois avec OpenClassrooms de niveau Bac+3/4 dans le <span id="textStyle">développement Web PHP / Symfony.</span></p>
-                <p>J'ai effectué une première <span id="textStyle">formation de Développeur Web PHP de niveau Bac+2</span>, où j'ai appris les bases du développement Web 
-                dans les langages <span id="textStyle">HTML/CSS/SQL/PHP en orienté objet</span>, sur les outils de versionning tels que <span id="textStyle">Github</span>,
-                  sur les environnement wamp/phpmyadmin.</p>
+                
+                <p>J'ambitionne de devenir <span id="textStyle">Développeur Full-Stack</span> avec les technologies Javascript et PHP.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="listRealisations firstBlocMargin">
+
+        <div class="card text-white bg-dark">
+            <div class="card-header text-center">
+                <strong>Site pour restaurant de sushi, en PHP natif</strong>
+            </div>
+            <img src="img\imgMLS\pageAccueil1.png" class="card-img-top">
+            <div class="card-body">
+                <p class="card-text">
+                    <strong>Fonctionnalités :</strong>
+                    <ul>
+                        <span id="textStyle">
+                            <li>Menu en ligne affichants les produits</li>
+                            <li>Création d'un panier</li>
+                            <li>Page Contact</li>
+                            <li>Page Admin (gérer les produits (créer, modifier, supprimer))</li>
+                        </span>
+                    </ul>
+                </p>
+                <p class="card-text linkRealisations">Github :</p>
+                <div class="blocLinkA">
+                    <a href="https://github.com/Julien-rtg/MLS" class="card-text linkA" target="_blank">github.com/Julien-rtg/MLS</a>
+                </div>
+                <p class="card-text linkRealisations">Site :</p>
+                <div class="blocLinkA">
+                    <a href="https://mylovelysushi.fr/" class="card-text linkA" target="_blank">mylovelysushi.fr</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card text-white bg-dark">
+            <div class="card-header text-center">
+                <strong>Blog réalisé sous Symfony</strong>
+            </div>
+            <img src="img\firstProjectSymfony.png" class="card-img-top">
+            <div class="card-body">
+                
+                <p class="card-text">
+                    <strong>Fonctionnalités :</strong>
+                    <ul>
+                        <span id="textStyle">
+                            <li>Afficher articles</li>
+                            <li>Création d'article, modification</li>
+                            <li>Espace connexion</li>
+                            <li>Espace commentaire sous articles</li>
+                        </span>
+                    </ul>
+                </p>
+                <p class="card-text linkRealisations">Github :</p>
+                <div class="blocLinkA">
+                    <a href="https://github.com/Julien-rtg/DemoSymfony" class="card-text linkA" target="_blank">github.com/Julien-rtg/DemoSymfony</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="blocLeft" data-aos="flip-left" data-aos-duration="1000">
-        <div class="Content">
-            <div class="futur">
-                <h3>Ambitions :</h3>
-                <div class="description">
-                    <p>J'ambitionne de devenir <span id="textStyle">Développeur Full-Stack</span> avec les technologies Javascript et PHP.</p>
-                    <p>Avant çela il faut que je me perfectionne sur le back-end avec PHP et sur le framework Symfony 5!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="blocRight botPage contact" data-aos="flip-right" data-aos-duration="1000">
+    <div class="blocLeft botPage contact" data-aos="flip-right" data-aos-duration="1000">
         <div class="Content">
             <h3>Contact :</h3>
             <div class="socials">
