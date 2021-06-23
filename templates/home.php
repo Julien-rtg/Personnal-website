@@ -46,18 +46,18 @@
 
     <div class="blocLeft" data-aos="flip-left" data-aos-duration="1000">
         <div class="container">
-            <h3>Mes formations :</h3>
-            <div class="formations">
-                <p><strong>2021 : OpenClassrooms - Développeur d'application PHP / Symfony (Bac+3/4)</strong></p>
-                <p class="formationsP">Grâce à cette formation j'aurai abordé tous les sujets centraux me 
+            <h2>Mes formations :</h2>
+            <div class="description">
+                <h4><strong>2021 : OpenClassrooms - Développeur d'application PHP / Symfony (Bac+3/4)</strong></h4>
+                <p>Grâce à cette formation j'aurai abordé tous les sujets centraux me 
                     permettant de développer une application avec Symfony de manière professionnelle et robuste.
                     Depuis l'affichage de données provenant de la base de données, la traduction de contenu,
                     construire une API REST.</p>
             </div>
-            <div class="formations">
-                <p><strong>2019 / 2020 : Développeur Web PHP (Bac+2) au centre de formation de l'Adrar</strong></p>
-                <p class="formationsP">Cette formation m'a appris à connaitre les bases du développement, les langages
-                    tels que HTML/CSS/JS/PHP. Sur les outils comme Wamp, MySQL Workbench, phpMyAdmin, Github.
+            <div class="description">
+                <h4><strong>2019 / 2020 : Développeur Web PHP (Bac+2) au centre de formation de l'Adrar</strong></h4>
+                <p>Cette formation m'a appris à connaitre les bases du développement, les langages
+                    tels que HTML/CSS/JS/SQL/PHP en orienté objet. Sur les outils comme Wamp, phpMyAdmin, Github.
                     Je l'ai réalisé à distance sur une durée de 8 mois.</p>
             </div>
         </div>
@@ -66,7 +66,7 @@
     <div class="blocRight" data-aos="flip-right" data-aos-duration="1000">
         <div class="container">
             <div class="about">
-                <h3>A propos de moi :</h3>
+                <h2>A propos de moi :</h2>
                 <div class="description">
                 <p>Actuellement à la <span id="textStyle">recherche</span> d'une entreprise sur <span id="textStyle">Toulouse</span> et alentours pouvant m'accueillir pour une <span id="textStyle">alternance</span>
                     sur 24 mois avec OpenClassrooms de niveau Bac+3/4 dans le <span id="textStyle">développement Web PHP / Symfony.</span></p>
@@ -78,17 +78,17 @@
     </div>
 
 
-    <div class="container">
+    <div class="container mt-5">
 
-        <div class="card text-white bg-dark mb-3">
+        <div class="card text-white bg-dark mb-5">
             <div class="row no-gutters">
                 <div class="col-md-4">
                     <img src="img\imgMLS\pageAccueil1.png" class="card-img">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Site pour restaurant de sushi, en PHP natif</h5>
-                        <p class="card-text">
+                        <h4 class="card-title">Site pour restaurant de sushi, en PHP natif</h5>
+                        <p class="card-text mt-5">
                         <strong>Fonctionnalités :</strong>
                         <ul>
                             <span id="textStyle">
@@ -99,11 +99,11 @@
                             </span>
                         </ul>
                         </p>
-                        <p class="card-text linkRealisations">Github :</p>
+                        <p class="card-text linkRealisations"> <strong>Github :</strong> </p>
                         <div class="blocLinkA">
                             <a href="https://github.com/Julien-rtg/MLS" class="card-text linkA" target="_blank">github.com/Julien-rtg/MLS</a>
                         </div>
-                        <p class="card-text linkRealisations">Site :</p>
+                        <p class="card-text linkRealisations"> <strong>Site :</strong> </p>
                         <div class="blocLinkA">
                             <a href="https://mylovelysushi.fr/" class="card-text linkA" target="_blank">mylovelysushi.fr</a>
                         </div>
@@ -113,15 +113,15 @@
         </div>
 
 
-        <div class="card text-white bg-dark mb-3">
+        <div class="card text-white bg-dark mb-5">
             <div class="row no-gutters">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <img src="img\firstProjectSymfony.png" class="card-img">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-6">
                     <div class="card-body">
-                        <h5 class="card-title">Blog réalisé sous Symfony</h5>
-                        <p class="card-text">
+                        <h4 class="card-title">Blog réalisé sous Symfony</h5>
+                        <p class="card-text mt-5">
                             <strong>Fonctionnalités :</strong>
                             <ul>
                                 <span id="textStyle">
@@ -132,7 +132,7 @@
                                 </span>
                             </ul>
                         </p>
-                        <p class="card-text linkRealisations">Github :</p>
+                        <p class="card-text linkRealisations"> <strong>Github :</strong> </p>
                         <div class="blocLinkA">
                             <a href="https://github.com/Julien-rtg/DemoSymfony" class="card-text linkA" target="_blank">github.com/Julien-rtg/DemoSymfony</a>
                         </div>
@@ -142,11 +142,20 @@
         </div>
 
     </div>
-    
-    <div class="blocLeft botPage contact" data-aos="flip-right" data-aos-duration="1000">
-        <div class="Content">
-            <h3>Contact :</h3>
-            <div class="socials">
+
+
+    <div class="bubble bubble1"></div>
+    <!-- <div class="bubble bubble2"></div>
+    <div class="bubble bubble3"></div>
+    <div class="bubble bubble4"></div> -->
+
+ 
+
+
+    <div class="contact bg-dark">
+        <div class="container mt-5">
+            <h2>Contact :</h2>
+            <div class="socials mt-5 mb-5">
                 <a href="mailto:julien.rittl@gmail.com"><img src="img\mail-black-envelope-symbol_icon-icons.com_56519.png" alt=""></a>
                 <a href="https://www.linkedin.com/in/julien-rittling/"><img src="img/linkedin_icon-icons.com_65929 (1).png" alt=""></a>
                 <a href="https://github.com/Julien-rtg"><img src="img/github-logo_icon-icons.com_73546 (1).png" alt=""></a>
