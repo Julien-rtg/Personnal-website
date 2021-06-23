@@ -45,7 +45,7 @@
 
 
     <div class="blocLeft" data-aos="flip-left" data-aos-duration="1000">
-        <div class="Content">
+        <div class="container">
             <h3>Mes formations :</h3>
             <div class="formations">
                 <p><strong>2021 : OpenClassrooms - Développeur d'application PHP / Symfony (Bac+3/4)</strong></p>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="blocRight" data-aos="flip-right" data-aos-duration="1000">
-        <div class="Content">
+        <div class="container">
             <div class="about">
                 <h3>A propos de moi :</h3>
                 <div class="description">
@@ -76,63 +76,73 @@
             </div>
         </div>
     </div>
-    
-    <div class="listRealisations firstBlocMargin">
 
-        <div class="card text-white bg-dark">
-            <div class="card-header text-center">
-                <strong>Site pour restaurant de sushi, en PHP natif</strong>
-            </div>
-            <img src="img\imgMLS\pageAccueil1.png" class="card-img-top">
-            <div class="card-body">
-                <p class="card-text">
-                    <strong>Fonctionnalités :</strong>
-                    <ul>
-                        <span id="textStyle">
-                            <li>Menu en ligne affichants les produits</li>
-                            <li>Création d'un panier</li>
-                            <li>Page Contact</li>
-                            <li>Page Admin (gérer les produits (créer, modifier, supprimer))</li>
-                        </span>
-                    </ul>
-                </p>
-                <p class="card-text linkRealisations">Github :</p>
-                <div class="blocLinkA">
-                    <a href="https://github.com/Julien-rtg/MLS" class="card-text linkA" target="_blank">github.com/Julien-rtg/MLS</a>
+
+    <div class="container">
+
+        <div class="card text-white bg-dark mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="img\imgMLS\pageAccueil1.png" class="card-img">
                 </div>
-                <p class="card-text linkRealisations">Site :</p>
-                <div class="blocLinkA">
-                    <a href="https://mylovelysushi.fr/" class="card-text linkA" target="_blank">mylovelysushi.fr</a>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Site pour restaurant de sushi, en PHP natif</h5>
+                        <p class="card-text">
+                        <strong>Fonctionnalités :</strong>
+                        <ul>
+                            <span id="textStyle">
+                                <li>Menu en ligne affichants les produits</li>
+                                <li>Création d'un panier</li>
+                                <li>Page Contact</li>
+                                <li>Page Admin (gérer les produits (créer, modifier, supprimer))</li>
+                            </span>
+                        </ul>
+                        </p>
+                        <p class="card-text linkRealisations">Github :</p>
+                        <div class="blocLinkA">
+                            <a href="https://github.com/Julien-rtg/MLS" class="card-text linkA" target="_blank">github.com/Julien-rtg/MLS</a>
+                        </div>
+                        <p class="card-text linkRealisations">Site :</p>
+                        <div class="blocLinkA">
+                            <a href="https://mylovelysushi.fr/" class="card-text linkA" target="_blank">mylovelysushi.fr</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="card text-white bg-dark">
-            <div class="card-header text-center">
-                <strong>Blog réalisé sous Symfony</strong>
-            </div>
-            <img src="img\firstProjectSymfony.png" class="card-img-top">
-            <div class="card-body">
-                
-                <p class="card-text">
-                    <strong>Fonctionnalités :</strong>
-                    <ul>
-                        <span id="textStyle">
-                            <li>Afficher articles</li>
-                            <li>Création d'article, modification</li>
-                            <li>Espace connexion</li>
-                            <li>Espace commentaire sous articles</li>
-                        </span>
-                    </ul>
-                </p>
-                <p class="card-text linkRealisations">Github :</p>
-                <div class="blocLinkA">
-                    <a href="https://github.com/Julien-rtg/DemoSymfony" class="card-text linkA" target="_blank">github.com/Julien-rtg/DemoSymfony</a>
+
+        <div class="card text-white bg-dark mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="img\firstProjectSymfony.png" class="card-img">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog réalisé sous Symfony</h5>
+                        <p class="card-text">
+                            <strong>Fonctionnalités :</strong>
+                            <ul>
+                                <span id="textStyle">
+                                    <li>Afficher articles</li>
+                                    <li>Création d'article, modification</li>
+                                    <li>Espace connexion</li>
+                                    <li>Espace commentaire sous articles</li>
+                                </span>
+                            </ul>
+                        </p>
+                        <p class="card-text linkRealisations">Github :</p>
+                        <div class="blocLinkA">
+                            <a href="https://github.com/Julien-rtg/DemoSymfony" class="card-text linkA" target="_blank">github.com/Julien-rtg/DemoSymfony</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
-
+    
     <div class="blocLeft botPage contact" data-aos="flip-right" data-aos-duration="1000">
         <div class="Content">
             <h3>Contact :</h3>
