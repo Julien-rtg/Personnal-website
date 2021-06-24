@@ -78,7 +78,7 @@
     </div>
 
 
-    <div class="container mt-5">
+    <div class="container containerRea mt-5">
 
         <div class="card text-white bg-dark mb-5">
             <div class="row no-gutters">
@@ -144,12 +144,12 @@
     </div>
 
 
-    <div class="bubble bubble1"></div>
-    <!-- <div class="bubble bubble2"></div>
-    <div class="bubble bubble3"></div>
-    <div class="bubble bubble4"></div> -->
 
- 
+    <div class="bubble bubble1"></div>
+    <div class="bubble bubble2"></div>
+    <div class="bubble bubble3"></div>
+    <div class="bubble bubble4"></div>
+
 
 
     <div class="contact bg-dark">

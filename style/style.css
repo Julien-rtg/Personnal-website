@@ -1,5 +1,3 @@
-
-
 .main {
     display: flex;
     flex-direction: column;
@@ -10,8 +8,6 @@
     background-color: rgb(173, 216, 230);
     
 }
-
-
 
 section{
     position: relative;
@@ -291,6 +287,89 @@ h2 {
     justify-content: center;
 }
 
+.bubble {
+    position: absolute;
+    pointer-events: none;
+    height: 2200px;
+    width: 100%;
+    background-image: url("../img/bubble.png");
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    opacity: 0.6;
+}
+
+.bubble1 {
+    animation: bubble1 8s linear infinite;
+    background-position-x: 20%;
+}
+.bubble2 {
+    animation: bubble2 16s linear infinite;
+    animation-delay: -3s;
+    background-position-x: 40%;
+}
+.bubble3 {
+    animation: bubble3 20s linear infinite;
+    background-position-x: 60%;
+    animation-delay: -15s;
+}
+.bubble4{
+    animation: bubble4 14s linear infinite;
+    background-position-x: 80%;
+}
+
+
+@keyframes bubble1 {
+    0% {
+        background-position-y: 2200px;
+    }
+    40% {
+        background-position-x: 10%;
+    }
+    60% {
+        background-position-x: 15%;
+    }
+    80% {
+        background-position-x: 10%;
+    }
+    100% {
+        background-position-y: 0px;
+    }
+}
+@keyframes bubble2 {
+    0% {
+        background-position-y: 2200px;
+    }
+    50%{
+        background-position-x: 30%;
+    }
+    100% {
+        background-position-y: 0px;
+    }
+}
+@keyframes bubble3 {
+    0% {
+        background-position-y: 2200px;
+    }
+    50%{
+        background-position-x: 50%;
+    }
+    100% {
+        background-position-y: 0px;
+    }
+}
+@keyframes bubble4 {
+    0% {
+        background-position-y: 2200px;
+    }
+    50%{
+        background-position-x: 70%;
+    }
+    100% {
+        background-position-y: 0px;
+    }
+}
+
+
 @media screen and (max-width : 900px){
 
     #hrNav {
@@ -330,7 +409,30 @@ h2 {
 
 @media screen and (max-width : 650px){
 
-
+    .bubble{
+        height: 3000px;
+    }
+    
+    @keyframes bubble1 {
+        0% {
+            background-position-y: 3000px;
+        }
+    }
+    @keyframes bubble2 {
+        0% {
+            background-position-y: 3000px;
+        }
+    }
+    @keyframes bubble3 {
+        0% {
+            background-position-y: 3000px;
+        }
+    }
+    @keyframes bubble4 {
+        0% {
+            background-position-y: 3000px;
+        }
+    }
     .blocLeft {
         width: 400px;
         margin-left: 0%;
@@ -419,31 +521,6 @@ h2 {
 }
 
 
-
-
-.bubble {
-    position: relative;
-    height: 1800px;
-    background-image: url("../img/bubble.png");
-    background-repeat: no-repeat;
-    background-size: 100px 100px;
-    opacity: 1;
-    
-}
-
-.bubble1 {
-    animation: bubble1 10s;
-}
-
-
-@keyframes bubble1 {
-    0% {
-        background-position-y: 1000px;
-    }
-    100% {
-        background-position-y: 100px;
-    }
-}
 
 @keyframes animate {
     0% {
