@@ -1,16 +1,15 @@
-<div class="blocTopContainer">
+<div class="blocTopContainer mb-5">
     <div class="topContainer">
         <div class="img">
             <img src="img/Profil.png" alt="">
         </div>
-        <div class="titre">
-            <h1>Julien Rittling</h1>
-            <h2 id="h2">Développeur Web</h2>
+        <div class="titre mb-5">
+            <h1 class="text-center">Julien Rittling</h1>
+            <h2 class="text-center">Développeur Web</h2>
         </div>
     </div>
     
 </div>
-
 
 <section>
     <div class="wave wave1"></div>
@@ -46,7 +45,7 @@
 
     <div class="blocLeft" data-aos="flip-left" data-aos-duration="1000">
         <div class="container">
-            <h2>Mes formations :</h2>
+            <h2 class="text-center">Mes formations :</h2>
             <div class="description">
                 <h4><strong>2021 : OpenClassrooms - Développeur d'application PHP / Symfony (Bac+3/4)</strong></h4>
                 <p>Grâce à cette formation j'aurai abordé tous les sujets centraux me 
@@ -66,7 +65,7 @@
     <div class="blocRight" data-aos="flip-right" data-aos-duration="1000">
         <div class="container">
             <div class="about">
-                <h2>A propos de moi :</h2>
+                <h2 class="text-center">A propos de moi :</h2>
                 <div class="description">
                 <p>Actuellement à la <span id="textStyle">recherche</span> d'une entreprise sur <span id="textStyle">Toulouse</span> et alentours pouvant m'accueillir pour une <span id="textStyle">alternance</span>
                     sur 24 mois avec OpenClassrooms de niveau Bac+3/4 dans le <span id="textStyle">développement Web PHP / Symfony.</span></p>
@@ -154,7 +153,7 @@
 
     <div class="contact bg-dark">
         <div class="container mt-5">
-            <h2>Contact :</h2>
+            <h2 class="text-center">Contact :</h2>
             <div class="socials mt-5 mb-5">
                 <a href="mailto:julien.rittl@gmail.com"><img src="img\mail-black-envelope-symbol_icon-icons.com_56519.png" alt=""></a>
                 <a href="https://www.linkedin.com/in/julien-rittling/"><img src="img/linkedin_icon-icons.com_65929 (1).png" alt=""></a>

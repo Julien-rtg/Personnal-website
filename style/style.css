@@ -1,14 +1,9 @@
-.main {
-    display: flex;
-    flex-direction: column;
-}
 .blocTopContainer{
     display: flex;
     justify-content: center;
     background-color: rgb(173, 216, 230);
     
 }
-
 section{
     position: relative;
     z-index: 2;
@@ -19,7 +14,7 @@ section .wave {
     bottom: 0%;
     left: 0%;
     width: 100%;
-    height: 70px;
+    height: 90px;
     background-image: url("../img/wave.png");
     background-size: 1000px 100px;
 }
@@ -51,92 +46,21 @@ section .wave.wave4 {
     background: linear-gradient(rgba(173,216,230,1), rgba(39,62,204,1), rgba(1,3,55,1));
 }
 
-.topContainer {
+
+.img {
     display: flex;
-
     justify-content: center;
-    flex-direction: column;
-    align-self: center;
-    z-index: 3;    
+
+    margin-top: 30%;
+    margin-bottom: 13%;
 }
 
-    .img {
-        display: flex;
-        justify-content: center;
-
-        margin-top: 40%;
-        margin-bottom: 13%;
-    }
-
-        .img img {
-            border-radius: 50%;
-            width: 250px;
-            height: 250px;
-        }
-
-    .titre {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        margin-bottom: 15%;
-    }
-
-    .titleAlone {
-        margin-top: 20%;
-    }
-
-        .titre h1 {
-            font-size: 50px;
-            text-align: center;
-        }
-
-        .titre h2 {
-            text-align: center;
-        }
-
-#hrNav {
-    align-self: center;
-    width: 900px;
-    z-index: 3;
+.img img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
 }
 
-.nav, .navRealisations, #btnColor{
-    justify-content: center;
-    z-index: 3;
-}
-
-#btnColor img {
-    margin-bottom: 20%;
-}
-
-.nav a, #btnColor{
-    text-decoration: none;
-    color: inherit;
-    font-size: 20px;
-    margin-left: 2%;
-
-    transition: transform .5s;
-}
-
-.nav a:hover, .navRealisations a:hover, #btnColor:hover{
-    transform: scale(1.5);
-    font-weight: 700;
-    color: rgb(248, 99, 99);
-}
-
-.navRealisations a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 20px;
-
-    transition: transform .5s;
-}
-
-
-.firstBlocMargin{
-    margin-top: 5%;
-}
 .card-img {
     height: 500px;
 }
@@ -162,8 +86,6 @@ section .wave.wave4 {
     margin-top: 5%;
 
     border-radius: 0% 20% 10% 10%;
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,250,250,1) 0%, rgba(241,253,255,1) 100%);
-    box-shadow: 0px 0px 50px 15px #B7B7B7; */
 }
 
 .blocRight {
@@ -177,13 +99,6 @@ section .wave.wave4 {
     margin-top: 5%;
 
     border-radius: 20% 0% 10% 10%;
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(241,253,255,1) 0%, rgba(250,250,250,1) 100%);
-    box-shadow: 0px 0px 50px 15px #B7B7B7; */
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
 }
 
 #textStyle {
@@ -221,49 +136,6 @@ h2 {
     height: 64px;
 }
 
-
-
-        
-.realisationsImg {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
-    margin-top: 4%;
-    margin-bottom: 5%;
-}
-
-.realisationsImg img {
-    width: 250px;
-    height: 430px;
-}
-
-
-.desc {
-    width: 250px;
-}
-.desc a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.formations {
-    display: flex;
-    flex-direction: column;
-    margin-top: 4%;
-}
-.formationsP {
-    padding-left: 5%;
-}
-.experiences {
-    margin-top: 4%;
-}
-
-.botPage {
-    margin-bottom: 5%;
-}
-
 .socials {
     display: flex;
     justify-content: space-around;
@@ -278,13 +150,6 @@ h2 {
 
 .description ul {
     list-style-type: circle;
-}
-
-.btnSite {
-    margin-top: 2%;
-
-    display: flex;
-    justify-content: center;
 }
 
 .bubble {
@@ -371,10 +236,6 @@ h2 {
 
 
 @media screen and (max-width : 900px){
-
-    #hrNav {
-        width: 500px;
-    }
     
     .blocLeft{
         width: 500px;
@@ -445,22 +306,10 @@ h2 {
         align-self: center;
     }
 
-    .realisationsImg {
-        flex-direction: column;
-    }
-
-    .realisationsImg img{
-        width: 240px;
-        height: 350px;
-    }
-
     .titre h2 {
         font-size: 23px;
     }
 
-    #hrNav {
-        width: 400px;
-    }
 }
 
 @media screen and (max-width : 500px){
@@ -474,17 +323,9 @@ h2 {
         margin-top: 10%;
     }
 
-    .nav a {
-        font-size: 16px;
-    }
-
     .competencesImg img {
         width: 54px;
         height: 44px;
-    }
-
-    .desc {
-        width: 250px;
     }
 
     .img img {
@@ -495,8 +336,6 @@ h2 {
     .titre h1 {
         font-size: 30px;
     }
-
-
 
     .blocLeft {
         border-radius: 3%;
@@ -515,9 +354,6 @@ h2 {
         margin-bottom: 5%;
     }
 
-    #hrNav {
-        width: 220px;
-    }
 }
 
 
