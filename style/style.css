@@ -1,49 +1,18 @@
+.main {
+    background-color: rgb(250, 250, 250);
+    font-family: sans-serif;
+}
+
 .blocTopContainer{
     display: flex;
     justify-content: center;
-    background-color: rgb(173, 216, 230);
     
 }
-section{
-    position: relative;
-    z-index: 2;
-}
 
-section .wave {
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    width: 100%;
-    height: 90px;
-    background-image: url("../img/wave.png");
-    background-size: 1000px 100px;
-}
-
-section .wave.wave1 {
-    animation: animate 15s linear infinite;
-    opacity: 1;
-}
-
-section .wave.wave2 {
-    animation: animate2 25s linear infinite;
-    opacity: 0.5;
-    animation-delay: -5s;
-}
-
-section .wave.wave3 {
-    animation: animate3 15s linear infinite;
-    opacity: 1;
-    animation-delay: -2s;
-}
-
-section .wave.wave4 {
-    animation: animate4 30s linear infinite;
-    opacity: 0.5;
-}
 .botContainer {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(173,216,230,1), rgba(39,62,204,1), rgba(1,3,55,1));
+
 }
 
 
